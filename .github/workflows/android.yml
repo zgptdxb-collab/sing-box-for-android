@@ -9,8 +9,7 @@ on:
         type: string
   push:
     branches:
-      - main-next
-      - dev-next
+      - main
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
